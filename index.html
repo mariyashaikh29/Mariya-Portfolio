@@ -1,0 +1,1567 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mariya Shaikh | Offensive Security, VAPT & Threat Intelligence Specialist</title>
+    <meta name="description"
+        content="Personal Portfolio of Mariya Shaikh — MS Cybersecurity Graduate (8.9 CGPI), ISC2 Candidate, Top 1% TryHackMe CTF Player, VAPT & OSINT Specialist, and Published ML Smishing Researcher.">
+    <meta name="keywords"
+        content="Mariya Shaikh, Cybersecurity, VAPT, Penetration Testing, ISC2 Candidate, TryHackMe Top 1%, OSINT, Smishing Detection, Machine Learning, Burp Suite, Kali Linux, Wireshark, Splunk, University of Mumbai">
+    <meta name="author" content="Mariya Shaikh">
+
+    <!-- Open Graph / Meta -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Mariya Shaikh | Offensive Security & VAPT Specialist">
+    <meta property="og:description"
+        content="Explore penetration testing projects, OSINT tools, published machine-learning smishing research, and verified credentials by Mariya Shaikh.">
+    <meta property="og:image" content="https://avatars.githubusercontent.com/u/121440601?v=4">
+    <meta name="theme-color" content="#00ff88">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&family=Fira+Code:wght@400;500;600;700&family=Orbitron:wght@500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome 6.5.1 Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Background Canvas & Cyber Visual Overlays -->
+    <canvas id="cyberCanvas"></canvas>
+    <div class="cyber-bg-overlay"></div>
+    <div class="grid-overlay"></div>
+
+    <!-- Header & Navigation -->
+    <header id="header">
+        <div class="container nav-container">
+            <a href="#home" class="logo">
+                <span class="logo-bracket">&lt;</span>0x<span class="logo-name">MARIYA</span><span
+                    class="logo-bracket">/&gt;</span>
+                <span class="status-dot" title="Available for Cybersecurity & VAPT Roles"></span>
+            </a>
+
+            <div class="menu-toggle" id="menuToggle" aria-label="Toggle navigation menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <nav class="navbar" id="navbar">
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#skills" class="nav-link">Skills & Arsenal</a></li>
+                    <li><a href="#experience" class="nav-link">Experience</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#research" class="nav-link">Research</a></li>
+                    <li><a href="#education" class="nav-link">Education</a></li>
+                    <li><a href="#certifications" class="nav-link">Certifications</a></li>
+                    <li><a href="#contact" class="nav-link nav-cta">Transmit</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="container hero-container">
+            <div class="hero-badge-container">
+                <span class="cyber-pill live-pill">
+                    <span class="pulse-indicator"></span> TOP 1% TRYHACKME
+                </span>
+                <span class="cyber-pill highlight-pill">
+                    <i class="fas fa-graduation-cap"></i> MS CYBERSECURITY (8.9 CGPI)
+                </span>
+                <span class="cyber-pill purple-pill">
+                    <i class="fas fa-id-badge"></i> ISC2 CANDIDATE
+                </span>
+                <span class="cyber-pill">
+                    <i class="fas fa-bolt"></i> OSCP ASPIRANT
+                </span>
+            </div>
+
+            <h1 class="hero-title">
+                Hi, I'm <span class="gradient-text">Mariya Shaikh</span>
+            </h1>
+
+            <div class="typewriter-container">
+                <span class="terminal-prefix">$ whoami &gt; </span>
+                <span class="typing-text" id="typingText"></span>
+                <span class="type-cursor">|</span>
+            </div>
+
+            <p class="hero-description">
+                Offensive Security & VAPT Specialist with a master's in <strong>Cybersecurity from University of Mumbai
+                    (8.9 CGPI)</strong> and top 1% global ranking on TryHackMe. Published researcher with <strong>3
+                    peer-reviewed journal papers</strong> in machine-learning smishing detection, bridging deep
+                vulnerability assessment, external OSINT threat reconnaissance, and proactive threat modeling.
+            </p>
+
+            <!-- Metrics Bar -->
+            <div class="hero-stats-bar">
+                <div class="stat-card">
+                    <div class="stat-number">Top 1%</div>
+                    <div class="stat-label">Global TryHackMe Rank</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">8.9</div>
+                    <div class="stat-label">MS Cybersecurity CGPI</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">3</div>
+                    <div class="stat-label">Peer-Reviewed Papers</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">60+</div>
+                    <div class="stat-label">OSINT & Dork Modules</div>
+                </div>
+            </div>
+
+            <!-- Hero CTA Buttons -->
+            <div class="hero-cta-group">
+                <a href="#projects" class="btn btn-primary">
+                    <i class="fas fa-shield-halved"></i> Explore Projects
+                </a>
+                <a href="#research" class="btn btn-outline">
+                    <i class="fas fa-book-bookmark"></i> View Research
+                </a>
+                <a href="#certifications" class="btn btn-glass">
+                    <i class="fas fa-certificate"></i> Verified Badges
+                </a>
+                <a href="#contact" class="btn btn-glass">
+                    <i class="fas fa-paper-plane"></i> Get In Touch
+                </a>
+            </div>
+
+            <!-- Social Links -->
+            <div class="hero-social-links">
+                <a href="https://github.com/mariyashaikh29" target="_blank" rel="noopener noreferrer"
+                    class="social-icon" aria-label="GitHub Profile">
+                    <i class="fab fa-github"></i>
+                    <span class="social-tooltip">github.com/mariyashaikh29</span>
+                </a>
+                <a href="https://linkedin.com/in/mariya-shaikh29/" target="_blank" rel="noopener noreferrer"
+                    class="social-icon" aria-label="LinkedIn Profile">
+                    <i class="fab fa-linkedin-in"></i>
+                    <span class="social-tooltip">linkedin.com/in/mariya-shaikh29</span>
+                </a>
+                <a href="mailto:shaikhmariya2909@gmail.com" class="social-icon" aria-label="Email Mariya">
+                    <i class="fas fa-envelope"></i>
+                    <span class="social-tooltip">shaikhmariya2909@gmail.com</span>
+                </a>
+                <a href="tel:+919920573564" class="social-icon" aria-label="Call Mariya">
+                    <i class="fas fa-phone"></i>
+                    <span class="social-tooltip">+91 9920573564</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">// 01. PROFILE &amp; IDENTITY</span>
+                <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
+                <p class="section-subtitle">Dissecting software attack vectors, building automated OSINT frameworks, and
+                    engineering AI-driven defenses against mobile threat actors.</p>
+            </div>
+
+            <div class="about-grid">
+                <!-- Left: Bio Card -->
+                <div class="about-bio-card">
+                    <div class="bio-header">
+                        <div class="avatar-wrapper">
+                            <img src="https://avatars.githubusercontent.com/u/121440601?v=4"
+                                alt="Mariya Shaikh Profile Photo" class="profile-avatar"
+                                onerror="this.src='https://ui-avatars.com/api/?name=Mariya+Shaikh&background=00ff88&color=050b14&size=200'">
+                            <span class="avatar-ring"></span>
+                        </div>
+                        <div class="bio-title-info">
+                            <h3>Mariya Shaikh</h3>
+                            <p class="bio-role"><i class="fas fa-terminal text-primary"></i> Offensive Security, VAPT
+                                &amp; Threat Intelligence Specialist</p>
+                            <p class="bio-location"><i class="fas fa-map-marker-alt text-secondary"></i> Mumbai,
+                                Maharashtra, India</p>
+                        </div>
+                    </div>
+
+                    <div class="bio-body">
+                        <p>
+                            I hold a master's degree in <strong>Cybersecurity from the University of Mumbai (8.9
+                                CGPI)</strong>, an undergraduate degree in <strong>Computer Science (9.17
+                                CGPA)</strong>, and an official <strong>ISC2 Candidate</strong> standing. On TryHackMe,
+                            I maintain a global rank within the <strong>Top 1%</strong>, solving complex Capture The
+                            Flag (CTF) challenges spanning network pivoting, binary exploitation, and web application
+                            attack surfaces.
+                        </p>
+                        <p>
+                            Throughout professional internships at <strong>Cyber Secured India</strong>, <strong>Elevate
+                                Labs</strong>, and <strong>Chaitanya Cyber Strix Technologies</strong>, I have executed
+                            full-spectrum security audits: conducting TCP SYN stealth reconnaissance with Nmap,
+                            analyzing raw network traffic in Wireshark, dissecting phishing email headers with
+                            MxToolbox, establishing perimeter firewall policies, and performing Level 1 SOC log triaging
+                            with Splunk and Wazuh. In my forensics internship, I achieved an <strong>88.89%
+                                score</strong> in real-world practical assessments.
+                        </p>
+                        <p>
+                            Beyond offensive operations, I am a published researcher with <strong>3 peer-reviewed
+                                papers</strong> in international journals (IJITEE, IJSR, and IJRTE), investigating
+                            machine learning and deep learning architectures (Bi-LSTM, Random Forest, CNN, TF-IDF,
+                            SMOTE) for automated smishing (SMS phishing) detection.
+                        </p>
+                        <p>
+                            I am currently dedicated to intensive training for the <strong>OSCP (Offensive Security
+                                Certified Professional)</strong> certification, committed to continuous adversarial
+                            tradecraft and contributing to community security awareness.
+                        </p>
+
+                        <div class="key-traits-grid">
+                            <div class="trait-item">
+                                <i class="fas fa-bug trait-icon"></i>
+                                <div>
+                                    <h4>Offensive Security &amp; VAPT</h4>
+                                    <span>Web (OWASP Top 10), Network Audits &amp; PrivEsc</span>
+                                </div>
+                            </div>
+                            <div class="trait-item">
+                                <i class="fas fa-brain trait-icon text-secondary"></i>
+                                <div>
+                                    <h4>AI &amp; ML Threat Defense</h4>
+                                    <span>NLP, Bi-LSTM &amp; Deep Learning Phishing Classifiers</span>
+                                </div>
+                            </div>
+                            <div class="trait-item">
+                                <i class="fas fa-satellite-dish trait-icon text-accent"></i>
+                                <div>
+                                    <h4>Threat Recon &amp; OSINT</h4>
+                                    <span>Attack Surface Mapping, Shodan &amp; Dork Automation</span>
+                                </div>
+                            </div>
+                            <div class="trait-item">
+                                <i class="fas fa-shield-halved trait-icon text-purple"></i>
+                                <div>
+                                    <h4>SOC Triage &amp; Forensics</h4>
+                                    <span>Splunk, Wazuh SIEM, Disk Imaging &amp; Artifact Recovery</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right: Interactive Kali Linux Terminal Emulator -->
+                <div class="terminal-container">
+                    <div class="terminal-window">
+                        <div class="terminal-bar">
+                            <div class="terminal-dots">
+                                <span class="dot close"></span>
+                                <span class="dot minimize"></span>
+                                <span class="dot maximize"></span>
+                            </div>
+                            <div class="terminal-title">
+                                <i class="fas fa-terminal"></i> mariya@kali-cyber:~ (zsh)
+                            </div>
+                            <div class="terminal-status">
+                                <span class="status-indicator"></span> 0.00ms latency
+                            </div>
+                        </div>
+
+                        <div class="terminal-body" id="terminalOutput">
+                            <!-- Populated dynamically via script.js -->
+                        </div>
+
+                        <div class="terminal-input-row">
+                            <span class="terminal-user">mariya@kali-cyber</span><span class="terminal-sep">:</span><span
+                                class="terminal-path">~</span><span class="terminal-symbol">$</span>
+                            <input type="text" id="terminalInput" class="terminal-cli-input"
+                                placeholder="type 'help', 'skills', 'projects', 'papers', or 'certs'..."
+                                autocomplete="off" spellcheck="false">
+                        </div>
+                    </div>
+
+                    <!-- Quick Command Chips for Visitors -->
+                    <div class="terminal-quick-cmds">
+                        <button type="button" class="quick-cmd-btn" data-cmd="help">help</button>
+                        <button type="button" class="quick-cmd-btn" data-cmd="whoami">whoami</button>
+                        <button type="button" class="quick-cmd-btn" data-cmd="skills">skills</button>
+                        <button type="button" class="quick-cmd-btn" data-cmd="projects">projects</button>
+                        <button type="button" class="quick-cmd-btn" data-cmd="papers">papers</button>
+                        <button type="button" class="quick-cmd-btn" data-cmd="experience">experience</button>
+                        <button type="button" class="quick-cmd-btn" data-cmd="certs">certs</button>
+                        <button type="button" class="quick-cmd-btn" data-cmd="contact">contact</button>
+                        <button type="button" class="quick-cmd-btn" data-cmd="clear">clear</button>
+                    </div>
+
+                    <div class="terminal-hint">
+                        <i class="fas fa-info-circle text-primary"></i> Interactive shell emulator: Type any command or
+                        click the quick tags above.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills & Technical Arsenal Section -->
+    <section id="skills" class="section skills-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">// 02. TECHNICAL ARSENAL</span>
+                <h2 class="section-title">Skills &amp; <span class="gradient-text">Capabilities</span></h2>
+                <p class="section-subtitle">A multi-disciplinary stack combining offensive penetration testing,
+                    defensive SOC analytics, threat intelligence, and machine learning security.</p>
+            </div>
+
+            <div class="skills-grid">
+                <!-- Card 1: Offensive Security & VAPT -->
+                <div class="skill-category-card"
+                    style="--card-accent: var(--accent); --card-glow: var(--accent-glow); --card-soft: var(--accent-soft);">
+                    <div class="category-header">
+                        <div class="cat-icon-box cat-red">
+                            <i class="fas fa-skull-crossbones"></i>
+                        </div>
+                        <div>
+                            <h3>Offensive Security &amp; VAPT</h3>
+                            <p>Penetration testing &amp; adversarial exploitation</p>
+                        </div>
+                    </div>
+                    <div class="skill-tags-wrapper">
+                        <span class="skill-chip"><i class="fas fa-crosshairs"></i> Penetration Testing</span>
+                        <span class="skill-chip"><i class="fas fa-search-plus"></i> Vulnerability Assessment
+                            (VAPT)</span>
+                        <span class="skill-chip"><i class="fas fa-flag"></i> Top 1% TryHackMe</span>
+                        <span class="skill-chip"><i class="fas fa-user-ninja"></i> Red Teaming Tactics</span>
+                        <span class="skill-chip"><i class="fas fa-arrow-up-right-dots"></i> Linux Privilege
+                            Escalation</span>
+                        <span class="skill-chip"><i class="fas fa-globe"></i> OWASP Top 10 Web Exploits</span>
+                        <span class="skill-chip"><i class="fas fa-database"></i> SQL Injection (SQLi)</span>
+                        <span class="skill-chip"><i class="fas fa-code"></i> Cross-Site Scripting (XSS)</span>
+                        <span class="skill-chip"><i class="fas fa-shield-virus"></i> SSRF &amp; IDOR Testing</span>
+                    </div>
+                </div>
+
+                <!-- Card 2: Security Tools & Scanners -->
+                <div class="skill-category-card"
+                    style="--card-accent: var(--primary); --card-glow: var(--primary-glow); --card-soft: var(--primary-soft);">
+                    <div class="category-header">
+                        <div class="cat-icon-box cat-green">
+                            <i class="fas fa-toolbox"></i>
+                        </div>
+                        <div>
+                            <h3>Pentesting Tools &amp; Utilities</h3>
+                            <p>Industry-standard auditing suites &amp; scanners</p>
+                        </div>
+                    </div>
+                    <div class="skill-tags-wrapper">
+                        <span class="skill-chip"><i class="fab fa-linux"></i> Kali Linux</span>
+                        <span class="skill-chip"><i class="fas fa-network-wired"></i> Burp Suite</span>
+                        <span class="skill-chip"><i class="fas fa-radar"></i> Nmap</span>
+                        <span class="skill-chip"><i class="fas fa-bomb"></i> Metasploit Framework</span>
+                        <span class="skill-chip"><i class="fas fa-folder-tree"></i> Gobuster &amp; Dirb</span>
+                        <span class="skill-chip"><i class="fas fa-spider"></i> Nikto Web Scanner</span>
+                        <span class="skill-chip"><i class="fas fa-magnifying-glass-chart"></i> Nessus Scanner</span>
+                        <span class="skill-chip"><i class="fas fa-chart-line"></i> Wireshark Packet Analyzer</span>
+                        <span class="skill-chip"><i class="fas fa-key"></i>Hydra</span>
+                    </div>
+                </div>
+
+                <!-- Card 3: SOC & Defensive Operations -->
+                <div class="skill-category-card"
+                    style="--card-accent: var(--secondary); --card-glow: var(--secondary-glow); --card-soft: var(--secondary-soft);">
+                    <div class="category-header">
+                        <div class="cat-icon-box cat-cyan">
+                            <i class="fas fa-shield-cat"></i>
+                        </div>
+                        <div>
+                            <h3>SOC, SIEM &amp; Forensics</h3>
+                            <p>Security operations, monitoring &amp; investigation</p>
+                        </div>
+                    </div>
+                    <div class="skill-tags-wrapper">
+                        <span class="skill-chip"><i class="fas fa-cube"></i> Splunk Enterprise</span>
+                        <span class="skill-chip"><i class="fas fa-shield-halved"></i> Wazuh SIEM</span>
+                        <span class="skill-chip"><i class="fas fa-desktop"></i> Level 1 SOC Monitoring</span>
+                        <span class="skill-chip"><i class="fas fa-diagram-project"></i> MITRE ATT&amp;CK Mapping</span>
+                        <span class="skill-chip"><i class="fas fa-file-waveform"></i> Log Analysis &amp; IOC
+                            Triage</span>
+                        <span class="skill-chip"><i class="fas fa-hard-drive"></i> Digital Disk Forensics
+                            (88.89%)</span>
+                        <span class="skill-chip"><i class="fas fa-memory"></i> Memory Forensics &amp; Artifacts</span>
+                        <span class="skill-chip"><i class="fas fa-envelope-open-text"></i> Phishing Mail Header
+                            Auditing</span>
+                    </div>
+                </div>
+
+                <!-- Card 4: OSINT & Threat Reconnaissance -->
+                <div class="skill-category-card"
+                    style="--card-accent: var(--warning); --card-glow: rgba(255,183,3,0.35); --card-soft: var(--warning-soft);">
+                    <div class="category-header">
+                        <div class="cat-icon-box cat-warning">
+                            <i class="fas fa-satellite"></i>
+                        </div>
+                        <div>
+                            <h3>OSINT &amp; Threat Intelligence</h3>
+                            <p>External attack surface mapping &amp; investigations</p>
+                        </div>
+                    </div>
+                    <div class="skill-tags-wrapper">
+                        <span class="skill-chip"><i class="fas fa-eye"></i> Shodan Reconnaissance</span>
+                        <span class="skill-chip"><i class="fas fa-virus"></i> VirusTotal Threat Intel</span>
+                        <span class="skill-chip"><i class="fas fa-server"></i> Censys Search Engine</span>
+                        <span class="skill-chip"><i class="fas fa-magnifying-glass"></i> Google Dorking (60+
+                            Modules)</span>
+                        <span class="skill-chip"><i class="fas fa-id-card"></i> WHOIS &amp; DNS Records</span>
+                        <span class="skill-chip"><i class="fas fa-certificate"></i> crt.sh Cert Transparency</span>
+                        <span class="skill-chip"><i class="fas fa-user-secret"></i> Epieos OSINT</span>
+                        <span class="skill-chip"><i class="fas fa-image"></i> Reverse Image Attribution</span>
+                        <span class="skill-chip"><i class="fas fa-fingerprint"></i> URLScan &amp; MxToolbox</span>
+                    </div>
+                </div>
+
+                <!-- Card 5: AI / Machine Learning Security -->
+                <div class="skill-category-card"
+                    style="--card-accent: var(--purple); --card-glow: var(--purple-glow); --card-soft: var(--purple-soft);">
+                    <div class="category-header">
+                        <div class="cat-icon-box cat-purple">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <div>
+                            <h3>AI &amp; Machine Learning Security</h3>
+                            <p>Published deep learning smishing detection models</p>
+                        </div>
+                    </div>
+                    <div class="skill-tags-wrapper">
+                        <span class="skill-chip"><i class="fab fa-python"></i> Python 3</span>
+                        <span class="skill-chip"><i class="fas fa-network-wired"></i> Bi-LSTM Deep Neural
+                            Networks</span>
+                        <span class="skill-chip"><i class="fas fa-tree"></i> Random Forest Classifiers</span>
+                        <span class="skill-chip"><i class="fas fa-chart-line"></i> Logistic Regression &amp; SVM</span>
+                        <span class="skill-chip"><i class="fas fa-comment-dots"></i> NLP Text Preprocessing</span>
+                        <span class="skill-chip"><i class="fas fa-calculator"></i> TF-IDF Feature Extraction</span>
+                        <span class="skill-chip"><i class="fas fa-scale-balanced"></i> SMOTE Class Balancing</span>
+                        <span class="skill-chip"><i class="fas fa-window-maximize"></i> Streamlit Deployment</span>
+                    </div>
+                </div>
+
+                <!-- Card 6: Networking, Systems & Governance -->
+                <div class="skill-category-card"
+                    style="--card-accent: var(--secondary); --card-glow: var(--secondary-glow); --card-soft: var(--secondary-soft);">
+                    <div class="category-header">
+                        <div class="cat-icon-box cat-cyan">
+                            <i class="fas fa-network-wired"></i>
+                        </div>
+                        <div>
+                            <h3>Networks, Systems &amp; GRC</h3>
+                            <p>Protocols, system architecture &amp; compliance</p>
+                        </div>
+                    </div>
+                    <div class="skill-tags-wrapper">
+                        <span class="skill-chip"><i class="fas fa-ethernet"></i> TCP/IP Protocol Stack</span>
+                        <span class="skill-chip"><i class="fas fa-shield"></i> Firewall Rules &amp; iptables</span>
+                        <span class="skill-chip"><i class="fas fa-route"></i> Subnetting &amp; Network Hardening</span>
+                        <span class="skill-chip"><i class="fab fa-linux"></i> Linux Administration</span>
+                        <span class="skill-chip"><i class="fab fa-git-alt"></i> Git Version Control</span>
+                        <span class="skill-chip"><i class="fas fa-file-contract"></i> GRC Security Principles</span>
+                        <span class="skill-chip"><i class="fas fa-lightbulb"></i> Analytical Threat Modeling</span>
+                        <span class="skill-chip"><i class="fas fa-pen-nib"></i> Technical Audit Reporting</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Timeline Section -->
+    <section id="experience" class="section experience-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">// 03. PROFESSIONAL JOURNEY</span>
+                <h2 class="section-title">Work <span class="gradient-text">Experience</span></h2>
+                <p class="section-subtitle">Real-world operational experience across threat intelligence, network
+                    audits, SOC incident monitoring, and forensic examinations.</p>
+            </div>
+
+            <div class="timeline-container">
+                <!-- Timeline 1: Cyber Secured India OSINT -->
+                <div class="timeline-item">
+                    <div class="timeline-node"></div>
+                    <div class="timeline-card">
+                        <div class="timeline-header">
+                            <div>
+                                <h3 class="role-title">OSINT Intern</h3>
+                                <p class="company-name"><i class="fas fa-building text-primary"></i> Cyber Secured India
+                                    <span class="text-dim">· In collaboration with .MKITOS</span></p>
+                            </div>
+                            <span class="exp-badge">Sept 2025 – Oct 2025 · Remote</span>
+                        </div>
+                        <div class="timeline-meta">
+                            <span><i class="fas fa-calendar-alt text-primary"></i> 4-Week "CTRL. ALT. ACT."
+                                Program</span>
+                            <span><i class="fas fa-award text-secondary"></i> Leadership &amp; Outstanding Performance
+                                Award</span>
+                            <span><i class="fas fa-hashtag text-accent"></i> #OSINTforGood</span>
+                        </div>
+                        <div class="timeline-body">
+                            <ul>
+                                <li>Mastered advanced Open Source Intelligence (OSINT) workflows for digital background
+                                    checks, threat attribution, and attack surface enumeration.</li>
+                                <li>Investigated live digital footprints using multi-source intelligence platforms
+                                    including WHOIS registries, DNS records, Reverse Image Search, Epieos, and crt.sh
+                                    certificate transparency logs.</li>
+                                <li>Authored structured digital threat dossiers and reconnaissance intelligence
+                                    briefings supporting proactive risk assessment and social engineering
+                                    countermeasures.</li>
+                                <li>Awarded a Certificate of Achievement with special recognition for leadership and
+                                    investigative rigor across all assessment modules.</li>
+                            </ul>
+                            <div class="exp-tags">
+                                <span class="exp-tag">OSINT Tradecraft</span>
+                                <span class="exp-tag">Threat Attribution</span>
+                                <span class="exp-tag">Attack Surface Discovery</span>
+                                <span class="exp-tag">crt.sh</span>
+                                <span class="exp-tag">Epieos</span>
+                                <span class="exp-tag">Digital Forensics</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Timeline 2: Elevate Labs -->
+                <div class="timeline-item">
+                    <div class="timeline-node"></div>
+                    <div class="timeline-card">
+                        <div class="timeline-header">
+                            <div>
+                                <h3 class="role-title">Cyber Security Intern</h3>
+                                <p class="company-name"><i class="fas fa-building text-secondary"></i> Elevate Labs</p>
+                            </div>
+                            <span class="exp-badge">May 2025 – June 2025 · Remote</span>
+                        </div>
+                        <div class="timeline-meta">
+                            <span><i class="fas fa-calendar-alt text-primary"></i> 2-Month Intensive Lab
+                                Practicum</span>
+                            <span><i class="fas fa-desktop text-secondary"></i> Kali Linux &amp; Packet Telemetry</span>
+                        </div>
+                        <div class="timeline-body">
+                            <ul>
+                                <li>Conducted automated and manual TCP SYN port scans across simulated local subnets
+                                    (10.0.2.0/24) using Nmap 7.94SVN, identifying open database listeners, RPC services,
+                                    and unpatched SMB v1 (Port 445).</li>
+                                <li>Captured and analyzed live network packets in Wireshark to isolate protocol
+                                    anomalies, unencrypted credential transmissions, and malicious reconnaissance
+                                    patterns.</li>
+                                <li>Executed in-depth phishing email forensics utilizing MxToolbox, WHOIS lookups, and
+                                    VirusTotal reputation queries to deconstruct spoofed Microsoft 365 alerts and
+                                    malicious link payloads.</li>
+                                <li>Engineered firewall configuration policies and ingress/egress filtering rules to
+                                    isolate vulnerable ports and mitigate unauthorized lateral movement.</li>
+                            </ul>
+                            <div class="exp-tags">
+                                <span class="exp-tag">Nmap TCP SYN</span>
+                                <span class="exp-tag">Wireshark Telemetry</span>
+                                <span class="exp-tag">Firewall Rules</span>
+                                <span class="exp-tag">Phishing Deconstruction</span>
+                                <span class="exp-tag">MxToolbox</span>
+                                <span class="exp-tag">Network Auditing</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Timeline 3: Chaitanya Cyber Strix -->
+                <div class="timeline-item">
+                    <div class="timeline-node"></div>
+                    <div class="timeline-card">
+                        <div class="timeline-header">
+                            <div>
+                                <h3 class="role-title">SOC Analyst Intern</h3>
+                                <p class="company-name"><i class="fas fa-building text-accent"></i> Chaitanya Cyber
+                                    Strix Technologies Pvt Ltd</p>
+                            </div>
+                            <span class="exp-badge">Nov 2023 – Jan 2024 · Remote</span>
+                        </div>
+                        <div class="timeline-meta">
+                            <span><i class="fas fa-calendar-alt text-primary"></i> 3 Months SOC Practicum</span>
+                            <span><i class="fas fa-shield-halved text-accent"></i> Level 1 Incident Monitoring</span>
+                        </div>
+                        <div class="timeline-body">
+                            <ul>
+                                <li>Gained practical hands-on experience in Security Operations Center (SOC) procedures,
+                                    real-time alert triage, and security incident identification.</li>
+                                <li>Monitored enterprise log events using SIEM platforms including Splunk and Wazuh,
+                                    analyzing endpoint behavior and detecting indicators of compromise (IoCs).</li>
+                                <li>Mapped detected threat activities against the MITRE ATT&amp;CK framework matrix to
+                                    understand attacker tactics, techniques, and procedures (TTPs).</li>
+                                <li>Formulated structured incident escalation reports and contributed to incident
+                                    response playbook documentation for rapid containment.</li>
+                            </ul>
+                            <div class="exp-tags">
+                                <span class="exp-tag">SOC Level 1</span>
+                                <span class="exp-tag">Splunk</span>
+                                <span class="exp-tag">Wazuh SIEM</span>
+                                <span class="exp-tag">MITRE ATT&amp;CK</span>
+                                <span class="exp-tag">Incident Triage</span>
+                                <span class="exp-tag">IOC Analysis</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Timeline 4: Cyber Secured India Forensics -->
+                <div class="timeline-item">
+                    <div class="timeline-node"></div>
+                    <div class="timeline-card">
+                        <div class="timeline-header">
+                            <div>
+                                <h3 class="role-title">Cyber Security &amp; Digital Forensics Intern</h3>
+                                <p class="company-name"><i class="fas fa-building text-purple"></i> Cyber Secured India
+                                </p>
+                            </div>
+                            <span class="exp-badge">Dec 2023 – Feb 2024 · Remote</span>
+                        </div>
+                        <div class="timeline-meta">
+                            <span><i class="fas fa-calendar-alt text-primary"></i> 3-Month Formal Internship</span>
+                            <span><i class="fas fa-star text-warning"></i> 88.89% Score in Practical &amp; Theory
+                                Assessments</span>
+                        </div>
+                        <div class="timeline-body">
+                            <ul>
+                                <li>Completed an intensive 3-month Cyber Security &amp; Digital Forensics internship
+                                    program, achieving an outstanding <strong>88.89%</strong> in formal practical
+                                    examinations.</li>
+                                <li>Conducted mock digital forensic investigations on raw disk images, extracting Linux
+                                    filesystem metadata, recovering deleted records, and establishing event timelines.
+                                </li>
+                                <li>Practiced memory artifact extraction, steganographic payload discovery, and password
+                                    recovery using John the Ripper and custom wordlists.</li>
+                                <li>Maintained strict chain of custody protocols while preparing forensic investigation
+                                    reports suitable for legal and corporate compliance.</li>
+                            </ul>
+                            <div class="exp-tags">
+                                <span class="exp-tag">Digital Forensics</span>
+                                <span class="exp-tag">Disk Image Analysis</span>
+                                <span class="exp-tag">Linux File Systems</span>
+                                <span class="exp-tag">Steganography</span>
+                                <span class="exp-tag">Evidence Handling</span>
+                                <span class="exp-tag">Score: 88.89%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section projects-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">// 04. ENGINEERING &amp; RESEARCH</span>
+                <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
+                <p class="section-subtitle">Live interactive cybersecurity simulators, reconnaissance suites, AI
+                    detection pipelines, and offensive penetration testing labs.</p>
+            </div>
+
+            <!-- Filter Tabs -->
+            <div class="project-filter-bar">
+                <button type="button" class="filter-btn active" data-filter="all">All Projects (5)</button>
+                <button type="button" class="filter-btn" data-filter="web-security">Web Security &amp; Labs</button>
+                <button type="button" class="filter-btn" data-filter="osint-tools">OSINT &amp; Reconnaissance</button>
+                <button type="button" class="filter-btn" data-filter="ml-security">AI &amp; Machine Learning</button>
+            </div>
+
+            <div class="projects-grid">
+                <!-- Project 1: VulnSense -->
+                <div class="project-card" data-category="web-security">
+                    <div class="project-top">
+                        <span class="project-badge"><i class="fas fa-flask"></i> Interactive Cyber Simulator</span>
+                        <div class="project-actions">
+                            <a href="https://vulnsense.vercel.app/" target="_blank" rel="noopener noreferrer"
+                                class="project-icon-link" title="Launch VulnSense Simulator">
+                                <i class="fas fa-arrow-up-right-from-square"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="project-title">VulnSense</h3>
+                        <p class="project-tagline">Hands-On Cybersecurity Sandbox with Bilingual Explanations</p>
+                        <p class="project-desc">
+                            An interactive web-based cybersecurity simulator designed to eliminate the steep learning
+                            curve of web vulnerabilities through sandboxed, gamified execution.
+                        </p>
+                        <ul class="project-highlights">
+                            <li>Interactive simulations covering SQL Injection, XSS, IDOR, SSRF, and Command Injection.
+                            </li>
+                            <li>Bilingual educational engine featuring both English and Hinglish explanations for clear
+                                conceptual comprehension.</li>
+                            <li>Responsive cyberpunk HUD interface with live payload reaction logs and remediation
+                                hints.</li>
+                        </ul>
+                    </div>
+                    <div class="project-bottom">
+                        <div class="project-tags">
+                            <span class="project-tag">HTML5</span>
+                            <span class="project-tag">Tailwind CSS</span>
+                            <span class="project-tag">JavaScript ES6</span>
+                            <span class="project-tag">OWASP Top 10</span>
+                            <span class="project-tag">Sandboxing</span>
+                        </div>
+                        <div class="project-btn-group">
+                            <a href="https://vulnsense.vercel.app/" target="_blank" rel="noopener noreferrer"
+                                class="btn btn-primary btn-sm btn-block">
+                                <i class="fas fa-play"></i> Live Simulator
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2: DORKSCOPE v2.0 PRO -->
+                <div class="project-card" data-category="osint-tools">
+                    <div class="project-top">
+                        <span class="project-badge"><i class="fas fa-satellite"></i> OSINT Recon Suite</span>
+                        <div class="project-actions">
+                            <a href="https://github.com/mariyashaikh29/DorkScope" target="_blank"
+                                rel="noopener noreferrer" class="project-icon-link" title="GitHub Source Code">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://mariyashaikh29.github.io/DorkScope/" target="_blank"
+                                rel="noopener noreferrer" class="project-icon-link" title="Launch DorkScope">
+                                <i class="fas fa-arrow-up-right-from-square"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="project-title">DORKSCOPE v2.0 PRO</h3>
+                        <p class="project-tagline">Google Dorking Engine &amp; Threat Intelligence Dashboard</p>
+                        <p class="project-desc">
+                            A high-speed reconnaissance platform built for penetration testers and OSINT investigators
+                            to systematically discover attack surfaces and exposed assets.
+                        </p>
+                        <ul class="project-highlights">
+                            <li>60+ curated Google Dork modules for discovering admin portals, sensitive credentials,
+                                `.git` configs, and backup dumps.</li>
+                            <li>Integrated threat intelligence bridge to Shodan, VirusTotal, Censys, and URLScan.</li>
+                            <li>Domain sanitization, custom query builder, query bookmarking, and Markdown report
+                                export.</li>
+                        </ul>
+                    </div>
+                    <div class="project-bottom">
+                        <div class="project-tags">
+                            <span class="project-tag">JavaScript ES6</span>
+                            <span class="project-tag">Google Dorking</span>
+                            <span class="project-tag">OSINT APIs</span>
+                            <span class="project-tag">Shodan</span>
+                            <span class="project-tag">VirusTotal</span>
+                        </div>
+                        <div class="project-btn-group">
+                            <a href="https://mariyashaikh29.github.io/DorkScope/" target="_blank"
+                                rel="noopener noreferrer" class="btn btn-primary btn-sm">
+                                <i class="fas fa-crosshairs"></i> Live Tool
+                            </a>
+                            <a href="https://github.com/mariyashaikh29/DorkScope" target="_blank"
+                                rel="noopener noreferrer" class="btn btn-glass btn-sm">
+                                <i class="fab fa-github"></i> Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3: Smishing Detector -->
+                <div class="project-card" data-category="ml-security">
+                    <div class="project-top">
+                        <span class="project-badge"><i class="fas fa-brain"></i> AI / ML Security Architecture</span>
+                        <div class="project-actions">
+                            <a href="https://smishing-detector-mariya.streamlit.app" target="_blank"
+                                rel="noopener noreferrer" class="project-icon-link" title="Launch Streamlit App">
+                                <i class="fas fa-arrow-up-right-from-square"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="project-title">Smishing Threat Detector</h3>
+                        <p class="project-tagline">Ensemble AI Classifier with 99% Test Accuracy</p>
+                        <p class="project-desc">
+                            A production-ready machine learning application combating SMS phishing attacks that bypass
+                            standard cellular telecom spam filters.
+                        </p>
+                        <ul class="project-highlights">
+                            <li>Multi-model ensemble combining Logistic Regression, Random Forest, and Bidirectional
+                                LSTM (Bi-LSTM).</li>
+                            <li>Advanced NLP pipeline utilizing TF-IDF vectorization and SMOTE balancing for sparse
+                                fraud samples.</li>
+                            <li>Weighted probability voting achieving ~99% test classification accuracy, deployed on
+                                Streamlit Cloud.</li>
+                        </ul>
+                    </div>
+                    <div class="project-bottom">
+                        <div class="project-tags">
+                            <span class="project-tag">Python</span>
+                            <span class="project-tag">Bi-LSTM</span>
+                            <span class="project-tag">Random Forest</span>
+                            <span class="project-tag">NLP / TF-IDF</span>
+                            <span class="project-tag">Streamlit</span>
+                        </div>
+                        <div class="project-btn-group">
+                            <a href="https://smishing-detector-mariya.streamlit.app" target="_blank"
+                                rel="noopener noreferrer" class="btn btn-primary btn-sm btn-block">
+                                <i class="fas fa-robot"></i> Live ML App
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Research & Publications Section -->
+    <section id="research" class="section research-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">// 05. PEER-REVIEWED RESEARCH</span>
+                <h2 class="section-title">Academic <span class="gradient-text">Publications</span></h2>
+                <p class="section-subtitle">Published peer-reviewed research papers investigating machine learning and
+                    deep learning methodologies to combat SMS phishing (smishing).</p>
+            </div>
+
+            <div class="research-grid">
+                <!-- Paper 1: IJITEE -->
+                <div class="research-card">
+                    <div>
+                        <div class="research-badge-row">
+                            <span class="journal-pill">IJITEE · Scopus Indexed Publisher</span>
+                            <span class="pub-date">April 2025</span>
+                        </div>
+                        <h3 class="research-title">Smishing Detection: Combating SMS Phishing Attacks By Utilizing
+                            Machine-Learning Algorithms</h3>
+                        <p class="research-authors">
+                            <strong>Mariya Shaikh</strong>, Aqsa Shaikh, Dr. Srivaramangai Ramanujam
+                        </p>
+                        <p class="research-abstract">
+                            Investigates the proliferation of mobile smishing vectors and evaluates the efficacy of
+                            multiple ML and deep learning architectures (CNN, LSTM, IndRNN, Capsule Networks, and Random
+                            Forest) combined with TF-IDF vectorization to deliver automated real-time SMS filtering.
+                        </p>
+                    </div>
+                    <div>
+                        <div class="research-meta-box">
+                            <span><strong>Journal:</strong> Int'l Journal of Innovative Technology &amp; Exploring
+                                Engineering</span>
+                            <span><strong>Volume &amp; Issue:</strong> Volume-14/15, Issue-5</span>
+                            <span><strong>Focus:</strong> CNN, LSTM, IndRNN, Feature Extraction</span>
+                        </div>
+                        <a href="https://www.blueeyesintelligence.org/" target="_blank" rel="noopener noreferrer"
+                            class="btn btn-outline btn-sm btn-block">
+                            <i class="fas fa-file-pdf"></i> View Journal BEIESP
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Paper 2: IJSR -->
+                <div class="research-card">
+                    <div>
+                        <div class="research-badge-row">
+                            <span class="journal-pill">IJSR · Peer Reviewed</span>
+                            <span class="pub-date">December 2025</span>
+                        </div>
+                        <h3 class="research-title">Comparative Analysis of Machine Learning Models for Smishing Message
+                            Detection</h3>
+                        <p class="research-authors">
+                            Aqsa Shaikh, <strong>Mariya Shaikh</strong>, Dr. Srivaramangai R.
+                        </p>
+                        <p class="research-abstract">
+                            Presents an empirical comparative benchmark of 5 models (Logistic Regression, Random Forest,
+                            SVM, CNN, LSTM) on the UCI SMS dataset. Demonstrates that LSTM achieved peak detection
+                            accuracy at 98.2%, while Random Forest provided optimal operational balance for
+                            high-throughput deployment.
+                        </p>
+                    </div>
+                    <div>
+                        <div class="research-meta-box">
+                            <span><strong>Journal:</strong> International Journal of Science and Research (IJSR)</span>
+                            <span><strong>Volume &amp; Issue:</strong> Volume 14 Issue 12 · ISSN: 2319-7064</span>
+                            <span><strong>Paper ID:</strong> SR251223103916 · 98.2% Accuracy Benchmark</span>
+                        </div>
+                        <a href="https://www.ijsr.net/" target="_blank" rel="noopener noreferrer"
+                            class="btn btn-outline btn-sm btn-block">
+                            <i class="fas fa-arrow-up-right-from-square"></i> View on IJSR.net
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Paper 3: IJRTE -->
+                <div class="research-card">
+                    <div>
+                        <div class="research-badge-row">
+                            <span class="journal-pill">IJRTE · Double Blind Peer Review</span>
+                            <span class="pub-date">March 2026</span>
+                        </div>
+                        <h3 class="research-title">A Comparative Analysis of Deep Learning Models for Smishing Detection
+                            in SMS Message</h3>
+                        <p class="research-authors">
+                            Aqsa Shaikh, <strong>Mariya Shaikh</strong>, Dr. Srivaramangai R.
+                        </p>
+                        <p class="research-abstract">
+                            An in-depth investigation into sequential recurrent neural networks and word embedding
+                            representations for malicious text anomaly recognition. Formally reviewed and accepted under
+                            merit basis, contributing to mobile Cyber Threat Intelligence.
+                        </p>
+                    </div>
+                    <div>
+                        <div class="research-meta-box">
+                            <span><strong>Journal:</strong> Int'l Journal of Recent Technology &amp; Engineering</span>
+                            <span><strong>Volume &amp; Issue:</strong> Volume-14 Issue-6, pp. 14–21</span>
+                            <span><strong>DOI:</strong> 10.35940/ijrte.A8345.14060326</span>
+                        </div>
+                        <a href="https://doi.org/10.35940/ijrte.A8345.14060326" target="_blank"
+                            rel="noopener noreferrer" class="btn btn-outline btn-sm btn-block">
+                            <i class="fas fa-link"></i> Direct DOI Link
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section education-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">// 06. ACADEMIC FOUNDATION</span>
+                <h2 class="section-title">Academic <span class="gradient-text">Education</span></h2>
+                <p class="section-subtitle">Rigorous postgraduate specialization in offensive cybersecurity complemented
+                    by strong fundamental computer science training.</p>
+            </div>
+
+            <div class="education-grid">
+                <!-- Master's Degree -->
+                <div class="education-card">
+                    <div class="edu-header">
+                        <div>
+                            <h3 class="edu-degree">Master of Science (MS) in Cybersecurity</h3>
+                            <p class="edu-institution"><i class="fas fa-university text-primary"></i> University of
+                                Mumbai, Mumbai</p>
+                        </div>
+                        <div class="edu-badge-box">
+                            <div class="edu-cgpa">8.9 CGPI</div>
+                            <span class="edu-years">2024 – 2026</span>
+                        </div>
+                    </div>
+                    <div class="edu-body">
+                        <p>
+                            Advanced postgraduate specialization focusing on offensive cyber warfare, vulnerability
+                            research, cryptographic systems, cloud and network security architectures, and machine
+                            learning integration for threat detection.
+                        </p>
+                        <div class="edu-highlights-title">Key Core Disciplines:</div>
+                        <div class="edu-chips">
+                            <span class="edu-chip">Vulnerability Assessment &amp; Penetration Testing (VAPT)</span>
+                            <span class="edu-chip">Network &amp; Perimeter Defense</span>
+                            <span class="edu-chip">Digital Forensics &amp; Incident Triage</span>
+                            <span class="edu-chip">Machine Learning Security</span>
+                            <span class="edu-chip">Cryptography &amp; Zero-Trust Protocols</span>
+                            <span class="edu-chip">Governance, Risk &amp; Compliance (GRC)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Bachelor's Degree -->
+                <div class="education-card">
+                    <div class="edu-header">
+                        <div>
+                            <h3 class="edu-degree">B.Sc. in Computer Science</h3>
+                            <p class="edu-institution"><i class="fas fa-school text-secondary"></i> SIES College of
+                                Arts, Science &amp; Commerce, Sion, Mumbai</p>
+                        </div>
+                        <div class="edu-badge-box">
+                            <div class="edu-cgpa">9.17 CGPA</div>
+                            <span class="edu-years">2021 – 2024</span>
+                        </div>
+                    </div>
+                    <div class="edu-body">
+                        <p>
+                            Graduated with Distinction (9.17 CGPA), developing a robust computational foundation in
+                            computer networking protocols, Linux operating system internals, algorithm design, and
+                            software engineering.
+                        </p>
+                        <div class="edu-highlights-title">Key Core Disciplines:</div>
+                        <div class="edu-chips">
+                            <span class="edu-chip">Computer Networks &amp; Socket Programming</span>
+                            <span class="edu-chip">Linux Administration &amp; Shell Scripting</span>
+                            <span class="edu-chip">Operating System Internals</span>
+                            <span class="edu-chip">Database Management Systems (SQL)</span>
+                            <span class="edu-chip">Data Structures &amp; Algorithms</span>
+                            <span class="edu-chip">Web Architecture &amp; Security Fundamentals</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications & Credentials Section (With Interactive Modal Viewer!) -->
+    <section id="certifications" class="section certs-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">// 07. VERIFIED CREDENTIALS</span>
+                <h2 class="section-title">Certifications &amp; <span class="gradient-text">Badges</span></h2>
+                <p class="section-subtitle">Official industry certificates, CTF achievements, and academic credentials.
+                    Click 'View Credential' on any card to inspect the verified proof document.</p>
+            </div>
+
+            <div class="certs-grid">
+                <!-- Cert 1: ISC2 Candidate -->
+                <div class="cert-card" data-img="Certififcations/IS2 Candidate Badge.png"
+                    data-title="ISC2 Candidate Status &amp; Badge"
+                    data-issuer="ISC2 (International Information System Security Certification Consortium)"
+                    data-date="Active Credential" data-id="ISC2 Candidate Program"
+                    data-desc="Official ISC2 Candidate credential affirming professional commitment to international cybersecurity standards, continuous learning, and ethical practice.">
+                    <div class="cert-header">
+                        <div class="cert-icon"
+                            style="background: rgba(0, 212, 255, 0.1); border-color: rgba(0, 212, 255, 0.3); color: var(--secondary);">
+                            <i class="fas fa-shield"></i>
+                        </div>
+                        <div>
+                            <span class="cert-issuer">ISC2</span>
+                            <h3 class="cert-name">ISC2 Candidate Status</h3>
+                        </div>
+                    </div>
+                    <p class="cert-detail">Official membership badge demonstrating global alignment with ISC2 security
+                        standards, GRC domains, and active certification preparation.</p>
+                    <div class="cert-footer">
+                        <span class="cert-date"><i class="fas fa-check-circle text-primary"></i> Verified Badge</span>
+                        <button type="button" class="view-cert-btn"><i class="fas fa-eye"></i> View Badge</button>
+                    </div>
+                </div>
+
+                <!-- Cert 2: TryHackMe Pre Security -->
+                <div class="cert-card" data-img="Certififcations/Tryhackme Presecurity.png"
+                    data-title="Pre Security Learning Path Certificate" data-issuer="TryHackMe (THM)"
+                    data-date="22 February 2026" data-id="THM-QV6PSQAROX"
+                    data-desc="19 hours 10 minutes comprehensive offensive foundation covering network protocols, web fundamentals, Linux privilege systems, and adversarial methodologies.">
+                    <div class="cert-header">
+                        <div class="cert-icon">
+                            <i class="fas fa-terminal"></i>
+                        </div>
+                        <div>
+                            <span class="cert-issuer">TryHackMe</span>
+                            <h3 class="cert-name">Pre Security Learning Path</h3>
+                        </div>
+                    </div>
+                    <p class="cert-detail">19-hour hands-on curriculum covering network routing, web application
+                        fundamentals, Linux architecture, and core offensive techniques.</p>
+                    <div class="cert-footer">
+                        <span class="cert-date">THM-QV6PSQAROX</span>
+                        <button type="button" class="view-cert-btn"><i class="fas fa-eye"></i> View Credential</button>
+                    </div>
+                </div>
+
+                <!-- Cert 3: TryHackMe CTF -->
+                <div class="cert-card" data-img="Certififcations/Tryhackme CTF certificate.jfif"
+                    data-title="Love at First Breach CTF — Certificate of Participation" data-issuer="TryHackMe (THM)"
+                    data-date="25 February 2026" data-id="TryHackMe CTF Event"
+                    data-desc="Participated in the competitive 'Love at First Breach' CTF event, solving real-world cybersecurity challenges and demonstrating practical offensive exploitation tradecraft.">
+                    <div class="cert-header">
+                        <div class="cert-icon"
+                            style="background: rgba(255, 42, 109, 0.1); border-color: rgba(255, 42, 109, 0.3); color: var(--accent);">
+                            <i class="fas fa-flag"></i>
+                        </div>
+                        <div>
+                            <span class="cert-issuer">TryHackMe</span>
+                            <h3 class="cert-name">Love at First Breach CTF</h3>
+                        </div>
+                    </div>
+                    <p class="cert-detail">Competitive CTF event solving real-world exploit challenges and demonstrating
+                        offensive security problem-solving.</p>
+                    <div class="cert-footer">
+                        <span class="cert-date">Issued Feb 2026</span>
+                        <button type="button" class="view-cert-btn"><i class="fas fa-eye"></i> View Credential</button>
+                    </div>
+                </div>
+
+                <!-- Cert 4: Cisco Junior Cybersecurity Analyst -->
+                <div class="cert-card" data-img="Certififcations/Jr Cybersecurity Analyst.jfif"
+                    data-title="Junior Cybersecurity Analyst Career Path Exam" data-issuer="Cisco Networking Academy"
+                    data-date="19 October 2024" data-id="Cisco Networking Academy Program"
+                    data-desc="Successfully passed the Cisco Junior Cybersecurity Analyst Career Path exam, validating proficiency in security principles, technologies, and incident response.">
+                    <div class="cert-header">
+                        <div class="cert-icon"
+                            style="background: rgba(0, 212, 255, 0.1); border-color: rgba(0, 212, 255, 0.3); color: var(--secondary);">
+                            <i class="fas fa-network-wired"></i>
+                        </div>
+                        <div>
+                            <span class="cert-issuer">Cisco Networking Academy</span>
+                            <h3 class="cert-name">Jr. Cybersecurity Analyst</h3>
+                        </div>
+                    </div>
+                    <p class="cert-detail">Passed the Cisco Career Path examination, verifying core skills across
+                        vulnerability identification, security controls, and endpoint auditing.</p>
+                    <div class="cert-footer">
+                        <span class="cert-date">19 Oct 2024</span>
+                        <button type="button" class="view-cert-btn"><i class="fas fa-eye"></i> View Credential</button>
+                    </div>
+                </div>
+
+                <!-- Cert 5: Microsoft Student SOC Program -->
+                <div class="cert-card" data-img="Certififcations/Microsoft SOC.jfif"
+                    data-title="Student SOC Program Foundations Training" data-issuer="Microsoft"
+                    data-date="02 September 2025" data-id="Microsoft Certification of Completion"
+                    data-desc="Presented to Shaikh Mariya Nasrullah for completing the Microsoft Student SOC Program Foundations training, validating understanding of security operations and telemetry.">
+                    <div class="cert-header">
+                        <div class="cert-icon"
+                            style="background: rgba(255, 183, 3, 0.1); border-color: rgba(255, 183, 3, 0.3); color: var(--warning);">
+                            <i class="fab fa-microsoft"></i>
+                        </div>
+                        <div>
+                            <span class="cert-issuer">Microsoft</span>
+                            <h3 class="cert-name">Student SOC Program</h3>
+                        </div>
+                    </div>
+                    <p class="cert-detail">Foundations training covering SOC operational workflows, telemetry
+                        collection, cloud security monitoring, and alert response.</p>
+                    <div class="cert-footer">
+                        <span class="cert-date">02 Sep 2025</span>
+                        <button type="button" class="view-cert-btn"><i class="fas fa-eye"></i> View Credential</button>
+                    </div>
+                </div>
+
+                <!-- Cert 6: Cyber Secured India Forensics -->
+                <div class="cert-card" data-img="Certififcations/Internship- CSI.jfif"
+                    data-title="Cyber Security &amp; Digital Forensics Internship (88.89%)"
+                    data-issuer="Cyber Secured India" data-date="05 March 2024"
+                    data-id="Certificate No: 02c2686c50f44a90"
+                    data-desc="Scored 88.89% in the practical and theory assessments of the Cyber Security &amp; Digital Forensics Internship Program conducted by Cyber Secured India.">
+                    <div class="cert-header">
+                        <div class="cert-icon"
+                            style="background: rgba(157, 78, 221, 0.1); border-color: rgba(157, 78, 221, 0.3); color: var(--purple);">
+                            <i class="fas fa-fingerprint"></i>
+                        </div>
+                        <div>
+                            <span class="cert-issuer">Cyber Secured India</span>
+                            <h3 class="cert-name">Digital Forensics (88.89%)</h3>
+                        </div>
+                    </div>
+                    <p class="cert-detail">Achieved an 88.89% score in rigorous practical examinations evaluating disk
+                        imaging, evidence analysis, and investigative reporting.</p>
+                    <div class="cert-footer">
+                        <span class="cert-date">Cert: 02c2686c50f4</span>
+                        <button type="button" class="view-cert-btn"><i class="fas fa-eye"></i> View Credential</button>
+                    </div>
+                </div>
+
+                <!-- Cert 7: OSINT Cyber Secured India -->
+                <div class="cert-card" data-img="Certififcations/Internship- OSINT.jfif"
+                    data-title="CTRL. ALT. ACT. — Advanced OSINT Certification"
+                    data-issuer="Cyber Secured India &amp; .MKITOS" data-date="28 September 2025"
+                    data-id="CERT-T4FB0K-D87C6"
+                    data-desc="Certificate of Achievement presented in recognition of outstanding performance throughout the 4-week course 'CTRL. ALT. ACT.' and leadership in support of #OSINTforGood.">
+                    <div class="cert-header">
+                        <div class="cert-icon"
+                            style="background: rgba(0, 255, 136, 0.1); border-color: rgba(0, 255, 136, 0.3); color: var(--primary);">
+                            <i class="fas fa-satellite-dish"></i>
+                        </div>
+                        <div>
+                            <span class="cert-issuer">Cyber Secured India &amp; MKITOS</span>
+                            <h3 class="cert-name">Advanced OSINT "CTRL. ALT. ACT."</h3>
+                        </div>
+                    </div>
+                    <p class="cert-detail">Award for outstanding investigative performance and leadership across 4 weeks
+                        of intensive digital intelligence tradecraft.</p>
+                    <div class="cert-footer">
+                        <span class="cert-date">CERT-T4FB0K-D87C6</span>
+                        <button type="button" class="view-cert-btn"><i class="fas fa-eye"></i> View Credential</button>
+                    </div>
+                </div>
+
+                <!-- Cert 8: Security Blue Team Digital Forensics -->
+                <div class="cert-card" data-img="Certififcations/Introduction to Digital Forensics.jfif"
+                    data-title="Introduction to Digital Forensics" data-issuer="Security Blue Team"
+                    data-date="07 April 2026" data-id="Certificate ID: 733308357"
+                    data-desc="Demonstrated practical understanding of Linux file systems, CLI navigation, zip cracking, steganography, and completed an investigation on a mock disk image.">
+                    <div class="cert-header">
+                        <div class="cert-icon"
+                            style="background: rgba(0, 212, 255, 0.1); border-color: rgba(0, 212, 255, 0.3); color: var(--secondary);">
+                            <i class="fas fa-magnifying-glass"></i>
+                        </div>
+                        <div>
+                            <span class="cert-issuer">Security Blue Team</span>
+                            <h3 class="cert-name">Intro to Digital Forensics</h3>
+                        </div>
+                    </div>
+                    <p class="cert-detail">Practical forensics credential verifying Linux filesystem investigations,
+                        mock disk image analysis, zip cracking, and steganography.</p>
+                    <div class="cert-footer">
+                        <span class="cert-date">ID: 733308357</span>
+                        <button type="button" class="view-cert-btn"><i class="fas fa-eye"></i> View Credential</button>
+                    </div>
+                </div>
+
+                <!-- Cert 9: Centri Penetration Testing -->
+                <div class="cert-card" data-img="Certififcations/Introduction to Penetration Testing.jfif"
+                    data-title="Introduction to Penetration Testing" data-issuer="Centri" data-date="11 June 2026"
+                    data-id="Certificate ID: 122977468"
+                    data-desc="Foundational understanding of ethical hacking, penetration testing assessment types, scoping, and professional methodologies.">
+                    <div class="cert-header">
+                        <div class="cert-icon"
+                            style="background: rgba(255, 42, 109, 0.1); border-color: rgba(255, 42, 109, 0.3); color: var(--accent);">
+                            <i class="fas fa-user-secret"></i>
+                        </div>
+                        <div>
+                            <span class="cert-issuer">Centri</span>
+                            <h3 class="cert-name">Intro to Penetration Testing</h3>
+                        </div>
+                    </div>
+                    <p class="cert-detail">Validates foundational knowledge of ethical hacking, engagement scopes, and
+                        structured offensive assessment procedures.</p>
+                    <div class="cert-footer">
+                        <span class="cert-date">ID: 122977468</span>
+                        <button type="button" class="view-cert-btn"><i class="fas fa-eye"></i> View Credential</button>
+                    </div>
+                </div>
+
+                <!-- Cert 10: CodeRed SQL Injection -->
+                <div class="cert-card" data-img="Certififcations/SQL Injection Attacks.png"
+                    data-title="SQL Injection Attacks — Course Completion" data-issuer="CodeRed by EC-Council"
+                    data-date="23 July 2026" data-id="Certificate Number: 515190"
+                    data-desc="Validation of course completion for SQL Injection Attacks, covering database exploitation vectors, in-band and blind SQLi, and defensive parameterization.">
+                    <div class="cert-header">
+                        <div class="cert-icon"
+                            style="background: rgba(255, 42, 109, 0.1); border-color: rgba(255, 42, 109, 0.3); color: var(--accent);">
+                            <i class="fas fa-database"></i>
+                        </div>
+                        <div>
+                            <span class="cert-issuer">CodeRed (EC-Council)</span>
+                            <h3 class="cert-name">SQL Injection Attacks</h3>
+                        </div>
+                    </div>
+                    <p class="cert-detail">Course completion on in-band, error-based, and blind SQL injection
+                        exploitation techniques and parameterized query defense.</p>
+                    <div class="cert-footer">
+                        <span class="cert-date">Cert No: 515190</span>
+                        <button type="button" class="view-cert-btn"><i class="fas fa-eye"></i> View Credential</button>
+                    </div>
+                </div>
+
+                <!-- Cert 11: Cisco Cyber Threat Management -->
+                <div class="cert-card" data-img="Certififcations/Cyber Threat Management.jfif"
+                    data-title="Cyber Threat Management" data-issuer="Cisco Networking Academy"
+                    data-date="29 January 2025" data-id="Cisco Networking Academy Program"
+                    data-desc="Successfully completed Cyber Threat Management through the Cisco Networking Academy program, covering threat landscapes, governance, and threat mitigation.">
+                    <div class="cert-header">
+                        <div class="cert-icon"
+                            style="background: rgba(0, 212, 255, 0.1); border-color: rgba(0, 212, 255, 0.3); color: var(--secondary);">
+                            <i class="fas fa-triangle-exclamation"></i>
+                        </div>
+                        <div>
+                            <span class="cert-issuer">Cisco Networking Academy</span>
+                            <h3 class="cert-name">Cyber Threat Management</h3>
+                        </div>
+                    </div>
+                    <p class="cert-detail">Covers enterprise threat landscapes, risk management, perimeter defenses, and
+                        actionable cyber governance strategies.</p>
+                    <div class="cert-footer">
+                        <span class="cert-date">29 Jan 2025</span>
+                        <button type="button" class="view-cert-btn"><i class="fas fa-eye"></i> View Credential</button>
+                    </div>
+                </div>
+
+                <!-- Cert 12: Cisco Intro to Cybersecurity -->
+                <div class="cert-card" data-img="Certififcations/Intoduction to Cybersecurity.jfif"
+                    data-title="Introduction to Cybersecurity" data-issuer="Cisco Networking Academy"
+                    data-date="15 March 2025" data-id="Cisco Networking Academy Program"
+                    data-desc="Successfully completed Introduction to Cybersecurity through the Cisco Networking Academy program.">
+                    <div class="cert-header">
+                        <div class="cert-icon">
+                            <i class="fas fa-shield-virus"></i>
+                        </div>
+                        <div>
+                            <span class="cert-issuer">Cisco Networking Academy</span>
+                            <h3 class="cert-name">Intro to Cybersecurity</h3>
+                        </div>
+                    </div>
+                    <p class="cert-detail">Fundamental security principles, threat actor taxonomy, confidentiality,
+                        integrity, availability, and modern defensive controls.</p>
+                    <div class="cert-footer">
+                        <span class="cert-date">15 Mar 2025</span>
+                        <button type="button" class="view-cert-btn"><i class="fas fa-eye"></i> View Credential</button>
+                    </div>
+                </div>
+
+                <!-- Cert 13: AKATI Sekurity & SOEBIT Symposium -->
+                <div class="cert-card" data-img="Certififcations/Akati Security.jfif"
+                    data-title="Cybersecurity Symposium for Students &amp; Young Professionals"
+                    data-issuer="AKATI Sekurity &amp; SOEBIT" data-date="04 November 2024"
+                    data-id="Certificate ID: c1fd1a35-12c4-49e9-bc64-72f9f73dbec9"
+                    data-desc="Certificate of Participation awarded to Shaikh Mariya Nasrullah for actively participating in the Cybersecurity Symposium for Students &amp; Young Professionals.">
+                    <div class="cert-header">
+                        <div class="cert-icon"
+                            style="background: rgba(255, 183, 3, 0.1); border-color: rgba(255, 183, 3, 0.3); color: var(--warning);">
+                            <i class="fas fa-users-gear"></i>
+                        </div>
+                        <div>
+                            <span class="cert-issuer">AKATI Sekurity &amp; SOEBIT</span>
+                            <h3 class="cert-name">Cybersecurity Symposium</h3>
+                        </div>
+                    </div>
+                    <p class="cert-detail">Participation in symposium on advanced offensive threats, young professional
+                        cybersecurity leadership, and global industry trends.</p>
+                    <div class="cert-footer">
+                        <span class="cert-date">Issued Nov 2024</span>
+                        <button type="button" class="view-cert-btn"><i class="fas fa-eye"></i> View Credential</button>
+                    </div>
+                </div>
+
+                <!-- Cert 14: Publication Certificate IJRTE -->
+                <div class="cert-card" data-img="Certififcations/Research Paper Publicatication.jfif"
+                    data-title="Certificate of Publication — IJRTE Journal"
+                    data-issuer="Blue Eyes Intelligence (BEIESP) / IJRTE" data-date="March 2026"
+                    data-id="DOI: 10.35940/ijrte.A8345.14060326"
+                    data-desc="Certifies that 'A Comparative Analysis of Deep Learning Models for Smishing Detection in SMS Message' authored by Aqsa Shaikh, Mariya Shaikh, and Srivaramangai R. was accepted and published in Volume-14 Issue-6.">
+                    <div class="cert-header">
+                        <div class="cert-icon"
+                            style="background: rgba(0, 212, 255, 0.1); border-color: rgba(0, 212, 255, 0.3); color: var(--secondary);">
+                            <i class="fas fa-scroll"></i>
+                        </div>
+                        <div>
+                            <span class="cert-issuer">IJRTE / BEIESP</span>
+                            <h3 class="cert-name">IJRTE Publication Certificate</h3>
+                        </div>
+                    </div>
+                    <p class="cert-detail">Official certificate of peer-reviewed journal publication for deep learning
+                        research in SMS smishing message detection.</p>
+                    <div class="cert-footer">
+                        <span class="cert-date">Vol-14 Issue-6</span>
+                        <button type="button" class="view-cert-btn"><i class="fas fa-eye"></i> View Certificate</button>
+                    </div>
+                </div>
+
+                <!-- Cert 15: Publication Certificate IJSR -->
+                <div class="cert-card" data-img="Certififcations/Research Paper Publicatication2.jfif"
+                    data-title="Certificate of Publication — IJSR Journal"
+                    data-issuer="International Journal of Science &amp; Research" data-date="December 2025"
+                    data-id="Paper ID: SR251223103916"
+                    data-desc="Certifies that 'Comparative Analysis of Machine Learning Models for Smishing Message Detection' co-authored by Mariya Shaikh passed double-blind peer review and was published in Volume 14 Issue 12.">
+                    <div class="cert-header">
+                        <div class="cert-icon"
+                            style="background: rgba(157, 78, 221, 0.1); border-color: rgba(157, 78, 221, 0.3); color: var(--purple);">
+                            <i class="fas fa-award"></i>
+                        </div>
+                        <div>
+                            <span class="cert-issuer">IJSR Journal</span>
+                            <h3 class="cert-name">IJSR Publication Certificate</h3>
+                        </div>
+                    </div>
+                    <p class="cert-detail">Official certificate of publication for comparative analysis of machine
+                        learning models in smishing detection.</p>
+                    <div class="cert-footer">
+                        <span class="cert-date">Paper ID: SR251223</span>
+                        <button type="button" class="view-cert-btn"><i class="fas fa-eye"></i> View Certificate</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificate Modal Previewer -->
+    <div class="cert-modal" id="certModal" role="dialog" aria-modal="true" aria-labelledby="modalCertTitle">
+        <div class="cert-modal-content">
+            <button type="button" class="modal-close-btn" id="modalCloseBtn" aria-label="Close modal">
+                <i class="fas fa-xmark"></i>
+            </button>
+            <div class="modal-image-wrapper">
+                <img src="" alt="Verified Credential Document" id="modalCertImg" class="modal-cert-img">
+            </div>
+            <div class="modal-info-box">
+                <h3 id="modalCertTitle">Certificate Preview</h3>
+                <div class="modal-meta-row">
+                    <span><strong>Issuer:</strong> <span id="modalCertIssuer"></span></span>
+                    <span><strong>Date:</strong> <span id="modalCertDate"></span></span>
+                    <span><strong>ID:</strong> <span id="modalCertId"></span></span>
+                </div>
+                <p id="modalCertDesc" class="modal-desc"></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">// 08. TRANSMIT / GET IN TOUCH</span>
+                <h2 class="section-title">Get In <span class="gradient-text">Touch</span></h2>
+                <p class="section-subtitle">Interested in collaboration, VAPT assessments, penetration testing roles, or
+                    threat intelligence consulting? Transmit a message below.</p>
+            </div>
+
+            <div class="contact-grid">
+                <!-- Left: Contact Details -->
+                <div class="contact-info-card">
+                    <h3>Direct Channels</h3>
+                    <p>
+                        Feel free to connect directly via email, phone, or professional networks. I respond promptly to
+                        inquiries regarding offensive security, SOC, and research collaborations.
+                    </p>
+
+                    <div class="contact-channels">
+                        <!-- Email -->
+                        <div class="channel-item">
+                            <div class="channel-left">
+                                <i class="fas fa-envelope channel-icon"></i>
+                                <div>
+                                    <div class="channel-label">Email Address</div>
+                                    <a href="mailto:shaikhmariya2909@gmail.com"
+                                        class="channel-val">shaikhmariya2909@gmail.com</a>
+                                </div>
+                            </div>
+                            <button type="button" class="copy-btn" data-copy="shaikhmariya2909@gmail.com"
+                                title="Copy Email">
+                                <i class="far fa-copy"></i>
+                            </button>
+                        </div>
+
+                        <!-- Phone -->
+                        <div class="channel-item">
+                            <div class="channel-left">
+                                <i class="fas fa-phone channel-icon"></i>
+                                <div>
+                                    <div class="channel-label">Phone / WhatsApp</div>
+                                    <a href="tel:+919920573564" class="channel-val">+91 9920573564</a>
+                                </div>
+                            </div>
+                            <button type="button" class="copy-btn" data-copy="+919920573564" title="Copy Phone Number">
+                                <i class="far fa-copy"></i>
+                            </button>
+                        </div>
+
+                        <!-- LinkedIn -->
+                        <div class="channel-item">
+                            <div class="channel-left">
+                                <i class="fab fa-linkedin-in channel-icon text-secondary"></i>
+                                <div>
+                                    <div class="channel-label">LinkedIn Profile</div>
+                                    <a href="https://linkedin.com/in/mariya-shaikh29/" target="_blank"
+                                        rel="noopener noreferrer"
+                                        class="channel-val">linkedin.com/in/mariya-shaikh29</a>
+                                </div>
+                            </div>
+                            <a href="https://linkedin.com/in/mariya-shaikh29/" target="_blank" rel="noopener noreferrer"
+                                class="copy-btn" title="Open LinkedIn">
+                                <i class="fas fa-arrow-up-right-from-square"></i>
+                            </a>
+                        </div>
+
+                        <!-- GitHub -->
+                        <div class="channel-item">
+                            <div class="channel-left">
+                                <i class="fab fa-github channel-icon"></i>
+                                <div>
+                                    <div class="channel-label">GitHub Repositories</div>
+                                    <a href="https://github.com/mariyashaikh29" target="_blank"
+                                        rel="noopener noreferrer" class="channel-val">github.com/mariyashaikh29</a>
+                                </div>
+                            </div>
+                            <a href="https://github.com/mariyashaikh29" target="_blank" rel="noopener noreferrer"
+                                class="copy-btn" title="Open GitHub">
+                                <i class="fas fa-arrow-up-right-from-square"></i>
+                            </a>
+                        </div>
+
+                        <!-- Location -->
+                        <div class="channel-item">
+                            <div class="channel-left">
+                                <i class="fas fa-location-dot channel-icon text-accent"></i>
+                                <div>
+                                    <div class="channel-label">Location</div>
+                                    <span class="channel-val">Mumbai, Maharashtra, India</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-status-box">
+                        <span class="pulse-indicator"></span>
+                        <p>Available for Full-Time Cybersecurity, VAPT &amp; Security Analyst Roles</p>
+                    </div>
+                </div>
+
+                <!-- Right: Encrypted Transmission Form -->
+                <div class="contact-form-card">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="contactName" class="form-label"><i class="fas fa-user text-primary"></i> Your
+                                Name / Organization</label>
+                            <input type="text" id="contactName" class="form-control"
+                                placeholder="e.g. Alex Mercer / CyberSec Ltd" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="contactEmail" class="form-label"><i class="fas fa-at text-secondary"></i> Email
+                                Address</label>
+                            <input type="email" id="contactEmail" class="form-control"
+                                placeholder="e.g. alex@securityfirm.com" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="contactSubject" class="form-label"><i class="fas fa-tag text-purple"></i>
+                                Transmission Subject</label>
+                            <input type="text" id="contactSubject" class="form-control"
+                                placeholder="e.g. Security Assessment / Job Opportunity / Research Inquiry" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="contactMessage" class="form-label"><i class="fas fa-message text-accent"></i>
+                                Transmission Body</label>
+                            <textarea id="contactMessage" class="form-control"
+                                placeholder="Describe the project scope, role, or message..." required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-block">
+                            <i class="fas fa-paper-plane"></i> Send Encrypted Transmission
+                        </button>
+
+                        <div id="formFeedback" class="form-feedback"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cyber Footer -->
+    <footer class="cyber-footer">
+        <div class="container">
+            <div class="footer-top">
+                <a href="#home" class="logo">
+                    <span class="logo-bracket">&lt;</span>0x<span class="logo-name">MARIYA</span><span
+                        class="logo-bracket">/&gt;</span>
+                </a>
+                <div class="footer-status">
+                    <span class="footer-status-dot"></span> SYSTEM INTEGRITY: 100% OPERATIONAL · ENCRYPTION ACTIVE
+                </div>
+                <button type="button" class="back-to-top-btn" id="backToTopBtn" aria-label="Back to top"
+                    title="Scroll to top">
+                    <i class="fas fa-arrow-up"></i>
+                </button>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-credits">
+                    Designed &amp; Engineered for <strong>Mariya Shaikh</strong> · Offensive Security Specialist
+                </div>
+                <div class="footer-copy">
+                    &copy; 2026 Mariya Shaikh. All Rights Reserved.
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+
+</html>
