@@ -170,9 +170,8 @@ function initTypewriter() {
     const phrases = [
         'Cybersecurity Analyst',
         'Penetration Tester',
-        'Security Tool Builder',
         'OSINT Threat Hunter',
-        'AI/ML Smishing Researcher',
+        'Ethical Hacker',
         'Adversarial Red Teamer'
     ];
 
@@ -220,11 +219,10 @@ function initTerminal() {
 
     // Boot sequence
     const bootSequence = [
-        { cmd: 'whoami', out: 'mariya-shaikh // Red Team & Offensive Security Specialist', delay: 300, highlight: true },
-        { cmd: 'cat status.txt', out: 'authorized engagements only // active top 1% tryhackme operator', delay: 900, amber: true },
-        { cmd: 'uname -a', out: 'Linux redteam-kali 6.8.0-kali #1 SMP PREEMPT_DYNAMIC x86_64 GNU/Linux', delay: 1500 },
-        { cmd: 'python3 -m telemetry --summary', out: 'MS Cyber (8.9 CGPI) · ISC2 Candidate · 3 Peer-Reviewed Papers (IJITEE, IJSR, IJRTE)', delay: 2200, highlight: true },
-        { cmd: 'echo "Ready. Type \'help\' for available commands."', out: 'Interactive CLI ready. Type commands or click the chips below.', delay: 2800 }
+        { cmd: 'whoami', out: 'mariya-shaikh - Red Team & Offensive Security Specialist', delay: 300, highlight: true },
+        { cmd: 'cat status.txt', out: 'active top 1% tryhackme operator', delay: 900, amber: true },
+        { cmd: 'cat metrics.txt', out: 'MS Cyber (8.9 CGPI) · ISC2 Candidate · 3 Peer-Reviewed Papers (IJITEE, IJSR, IJRTE)', delay: 2200, highlight: true },
+        { cmd: 'Type \'help\' for available commands.', out: 'Interactive CLI ready. Type commands or click the chips below.', delay: 2800 }
     ];
 
     bootSequence.forEach((item) => {
@@ -308,8 +306,7 @@ Focus Areas: Network PrivEsc, Web Exploits (OWASP), NLP Threat Detection`;
 • Recon & Intel: Shodan, VirusTotal, Censys, 60+ Google Dorks, crt.sh, Epieos
 • Exploitation: Kali Linux, Nmap, Burp Suite, Metasploit, Hydra, Linux PrivEsc
 • Web Security: OWASP Top 10, SQLi, XSS, SSRF, IDOR, Gobuster, Nikto
-• AI & Tooling: Python 3, Bi-LSTM, Random Forest, TF-IDF, SMOTE, Streamlit
-• SOC & Defense: Splunk, Wazuh SIEM, Wireshark, Disk Forensics (88.89% Score)`;
+• SOC & Defense: Splunk, Wazuh SIEM, Wireshark`;
                 break;
 
             case 'projects':
