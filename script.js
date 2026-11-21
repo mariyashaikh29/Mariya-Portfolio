@@ -358,7 +358,6 @@ Focus Areas: Network PrivEsc, Web Exploits (OWASP), NLP Threat Detection`;
             case './contact.sh':
                 response = `[COMMUNICATION CHANNELS]
 Email:    shaikhmariya2909@gmail.com
-Phone:    +91 9920573564
 LinkedIn: linkedin.com/in/mariya-shaikh29
 GitHub:   github.com/mariyashaikh29
 Location: Mumbai, Maharashtra, India`;
